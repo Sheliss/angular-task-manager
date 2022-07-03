@@ -1,0 +1,24 @@
+.task {
+    background: rgba(0, 129, 167, .1);
+    border-left: 5px solid transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+
+    &.reminder {
+        border-left: 5px solid #00AFB9;
+    }
+
+    h3 {
+        display: flex;
+        align-items: center;
+    }
+
+    fa-icon {
+        margin-left: 6px;
+        font-size: 20px;
+    }
+}
